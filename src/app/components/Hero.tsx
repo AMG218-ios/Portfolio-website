@@ -3,7 +3,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import { FaGithub, FaLinkedin } from 'react-icons/fa'
+import { FaGithub } from 'react-icons/fa'
 import {  motion } from 'framer-motion'
 import { fadeInUp, scaleIn } from '@/utils/animation'
 
@@ -37,10 +37,7 @@ const Hero = () => {
               duration-300'>
               <FaGithub/>
               </Link>
-                <Link href="https://www.linkedin.com/in/abdelmoin-al-megrab-493261375/?trk=opento_sprofile_details" className='text-2xl text-gray-600 hover:text-primary dark:text-gray-300 transition
-              duration-300'>
-              <FaLinkedin/>
-              </Link>
+
 
 
           </div>
