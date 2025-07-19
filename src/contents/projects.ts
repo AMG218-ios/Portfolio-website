@@ -3,7 +3,7 @@ import {Project} from "@/types";
 
 export const projects: Project[] = [
     {
-        title: 'Lorasco',
+        title: 'Oil service',
         description: 'A full-stack oil company platform built with Laravel, php and Tailwind CSS.',
         technologies: ['Laravel', 'PHP', 'Tailwind CSS'],
         githubLink: 'https://github.com',
