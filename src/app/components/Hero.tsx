@@ -3,7 +3,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import { FaGithub, FaTwitter, FaLinkedin } from 'react-icons/fa'
+import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import {  motion } from 'framer-motion'
 import { fadeInUp, scaleIn } from '@/utils/animation'
 
@@ -33,18 +33,15 @@ const Hero = () => {
           Enthusiast | Open Source Contributor</motion.p>
 
           <div className='flex justify-center space-x-4 mb-8'>
-              <Link href="/" className='text-2xl text-gray-600 hover:text-primary dark:text-gray-300 transition
+              <Link href="https://github.com/AMG218-ios" className='text-2xl text-gray-600 hover:text-primary dark:text-gray-300 transition
               duration-300'>
               <FaGithub/>
               </Link>
-                <Link href="/" className='text-2xl text-gray-600 hover:text-primary dark:text-gray-300 transition
+                <Link href="https://www.linkedin.com/in/abdelmoin-al-megrab-493261375/?trk=opento_sprofile_details" className='text-2xl text-gray-600 hover:text-primary dark:text-gray-300 transition
               duration-300'>
               <FaLinkedin/>
               </Link>
-                <Link href="/" className='text-2xl text-gray-600 hover:text-primary dark:text-gray-300 transition
-              duration-300'>
-              <FaTwitter/>
-              </Link>
+
 
           </div>
           <div className='flex flex-col md:flex-row justify-center gap-4'>
