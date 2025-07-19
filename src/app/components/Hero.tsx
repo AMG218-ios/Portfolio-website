@@ -37,12 +37,10 @@ const Hero = () => {
               duration-300'>
               <FaGithub/>
               </Link>
-
-              <Link href="https://www.linkedin.com/in/abdelmoin-al-megrab-493261375/?trk=opento_sprofile_details" className='text-2xl text-gray-600 hover:text-primary dark:text-gray-300 transition
+                <Link href="https://www.linkedin.com/in/abdelmoin-al-megrab-493261375/?trk=opento_sprofile_details" className='text-2xl text-gray-600 hover:text-primary dark:text-gray-300 transition
               duration-300'>
-                  <FaLinkedin/>
+              <FaLinkedin/>
               </Link>
-
 
 
           </div>
