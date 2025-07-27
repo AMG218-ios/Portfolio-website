@@ -19,7 +19,7 @@ export const projects: Project[] = [
         image: '/projects/GLISSE.png',
       },
       {
-        title: 'Cned (exercice)',
+        title: 'Cned (as an exercice)',
         description: 'In my debut i rebuilt by myself my school study program website.',
         technologies: ['HTML', 'Tailwind CSS'],
         githubLink: 'https://github.com',
