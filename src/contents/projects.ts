@@ -7,7 +7,7 @@ export const projects: Project[] = [
         description: 'A full-stack oil company platform built with Laravel, php and Tailwind CSS.',
         technologies: ['Laravel', 'PHP', 'Tailwind CSS'],
         githubLink: 'https://github.com/AMG218-ios/Oil-service-Company',
-        demoLink: 'https://demo.com',
+        demoLink: '/',
         image: '/projects/LORASCO.png',
       },
       {
@@ -15,7 +15,7 @@ export const projects: Project[] = [
         description: 'A bike-rent bussiness application with real-time updates.',
         technologies: ['Laravel', 'PHP', 'Tailwind CSS'],
         githubLink: 'https://github.com/AMG218-ios/Glisse',
-        demoLink: 'https://demo.com',
+        demoLink: '/',
         image: '/projects/GLISSE.png',
       },
       {
@@ -23,7 +23,7 @@ export const projects: Project[] = [
         description: 'In my debut i rebuilt by myself my school study program website.',
         technologies: ['HTML', 'Tailwind CSS'],
         githubLink: 'https://github.com',
-        demoLink: 'https://demo.com',
+        demoLink: '/',
         image: '/projects/CNED.png',
       },
 
@@ -32,7 +32,7 @@ export const projects: Project[] = [
         description: 'My personal portfolio website showcasing my projects and skills.',
         technologies: ['Next.js', 'Tailwind CSS', 'Framer Motion'],
         githubLink: 'https://github.com',
-        demoLink: 'https://demo.com',
+            demoLink: '/',
         image: '/projects/PORTFOLIO.png',
     },
 
