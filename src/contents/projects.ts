@@ -1,13 +1,13 @@
 import {Project} from "@/types";
 
 
+// @ts-ignore
 export const projects: Project[] = [
     {
         title: 'Oil Service',
         description: 'A full-stack oil company platform built with Laravel, php and Tailwind CSS.',
         technologies: ['Laravel', 'PHP', 'Tailwind CSS'],
         githubLink: 'https://github.com/AMG218-ios/Oil-service-Company',
-        demoLink: '/',
         image: '/projects/LORASCO.png',
       },
       {
@@ -15,7 +15,6 @@ export const projects: Project[] = [
         description: 'A bike-rent bussiness application with real-time updates.',
         technologies: ['Laravel', 'PHP', 'Tailwind CSS'],
         githubLink: 'https://github.com/AMG218-ios/Glisse',
-        demoLink: '/',
         image: '/projects/GLISSE.png',
       },
       {
@@ -23,7 +22,6 @@ export const projects: Project[] = [
         description: 'In my debut i rebuilt by myself my school study program website.',
         technologies: ['HTML', 'Tailwind CSS'],
         githubLink: 'https://github.com',
-        demoLink: '/',
         image: '/projects/CNED.png',
       },
 
@@ -32,7 +30,6 @@ export const projects: Project[] = [
         description: 'My personal portfolio website showcasing my projects and skills.',
         technologies: ['Next.js', 'Tailwind CSS', 'Framer Motion'],
         githubLink: 'https://github.com/AMG218-ios/Portfolio-website',
-            demoLink: 'https://portfolio-website-tvtl.vercel.app/',
         image: '/projects/PORTFOLIO.png',
     },
 
