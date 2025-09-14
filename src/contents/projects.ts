@@ -1,7 +1,7 @@
 import {Project} from "@/types";
 
 
-// @ts-ignore
+
 export const projects: Project[] = [
     {
         title: 'Oil Service',
