@@ -33,5 +33,13 @@ export const projects: Project[] = [
         image: '/projects/PORTFOLIO.png',
     },
 
+     {
+        title: 'TriMind Agency',
+        description: 'A Marketing agency based in Lyon that helps little businesses to don't waste time and to grow their projects.',
+        technologies: ['Html', 'CSS', 'Javascript'],
+        githubLink: 'https://github.com/AMG218-ios/Portfolio-website',
+        image: '/projects/PORTFOLIO.png',
+    },
+
 
   ];
